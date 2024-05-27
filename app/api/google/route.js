@@ -1,3 +1,5 @@
+"use server";
+
 import axios from "axios";
 import { NextResponse } from "next/server";
 
@@ -13,17 +15,23 @@ export async function POST(request) {
       return NextResponse.json({
         message: "Captcha verification success!!",
         success: true,
-      })
-    };
+      });
+    }
 
-    return NextResponse.json({
-      error: "Captcha verification failed!",
-      success: false,
-    }, { status: 500 });
+    return NextResponse.json(
+      {
+        error: "Captcha verification failed!",
+        success: false,
+      },
+      { status: 500 }
+    );
   } catch (error) {
-    return NextResponse.json({
-      error: "Captcha verification failed!",
-      success: false,
-    }, { status: 500 });
+    return NextResponse.json(
+      {
+        error: "Captcha verification failed!",
+        success: false,
+      },
+      { status: 500 }
+    );
   }
 }

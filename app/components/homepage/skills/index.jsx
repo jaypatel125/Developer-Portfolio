@@ -7,20 +7,17 @@ import Marquee from "react-fast-marquee";
 
 function Skills() {
   return (
-    <div
-      id="skills"
-      className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]"
-    >
-      <div className="w-[100px] h-[100px] bg-violet-100 rounded-full absolute top-6 left-[41%] translate-x-1/2 filter blur-3xl  opacity-20"></div>
-      <div className="flex justify-center -translate-y-[1px]">
+    <div id="skills" className="relative z-50 my-10 lg:my-24 border-[#25213b]">
+      <div className="w-[100px] h-[100px] bg-violet-100 rounded-full absolute top-6 left-[41%] translate-x-1/2 filter blur-3xl opacity-20"></div>
+      <div className="flex justify-center my-20 -translate-y-[1px]">
         <div className="w-3/4">
           <div className="h-[1px] bg-gradient-to-r from-transparent via-violet-500 to-transparent  w-full" />
         </div>
       </div>
-      <div className="flex justify-center my-5 lg:py-8">
+      <div className="flex justify-center lg:py-4">
         <div className="flex  items-center">
           <span className="w-24 h-[2px] bg-violet-900"></span>
-          <span className="bg-gradient-to-r to-blue-800 from-violet-900 w-fit text-white p-2 px-5 text-xl rounded-md">
+          <span className="bg-gradient-to-r to-blue-800 from-violet-900 w-fit text-white p-2 px-5 text-xl rounded-md ">
             Skills
           </span>
           <span className="w-24 h-[2px] bg-blue-800"></span>

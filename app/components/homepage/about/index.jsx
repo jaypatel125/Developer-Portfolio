@@ -6,7 +6,7 @@ import Image from "next/image";
 function AboutSection() {
   return (
     <div id="about" className="my-12 lg:my-16 relative pt-20">
-      <div className="hidden lg:flex flex-col items-center absolute top-20 -right-8">
+      <div className="hidden lg:flex flex-col items-center absolute mt-[4rem] top-20 -right-8">
         <div className="w-[80px] h-[80px] bg-violet-100 rounded-full absolute -top-7 right-20 translate-x-1/2 filter blur-3xl opacity-30"></div>
         <span className="bg-gradient-to-r to-blue-800 from-violet-900 w-fit text-white rotate-90 p-2 px-5 text-xl rounded-md">
           ABOUT ME
