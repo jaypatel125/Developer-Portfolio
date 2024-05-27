@@ -28,11 +28,11 @@ function Education() {
 
       <div className="flex justify-center mt-[3rem] lg:py-8">
         <div className="flex  items-center">
-          <span className="w-24 h-[2px] bg-[#1a1443]"></span>
+          <span className="w-24 h-[2px] bg-violet-800"></span>
           <span className="bg-gradient-to-r to-blue-800 from-violet-900 w-fit text-white p-2 px-5 text-xl rounded-md">
             Education
           </span>
-          <span className="w-24 h-[2px] bg-[#1a1443]"></span>
+          <span className="w-24 h-[2px] bg-blue-900"></span>
         </div>
       </div>
 

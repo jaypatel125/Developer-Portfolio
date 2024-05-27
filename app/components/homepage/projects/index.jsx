@@ -5,12 +5,13 @@ const Projects = () => {
   return (
     <div id="projects" className="relative z-50 my-12 lg:my-24">
       <div className="flex justify-center lg:py-8">
+        <div className="w-[100px] h-[100px] bg-violet-100 rounded-full absolute top-8 left-[41%] translate-x-1/2 filter blur-3xl opacity-20"></div>
         <div className="flex mt-[3rem] items-center">
-          <span className="w-24 h-[2px] bg-[#1a1443]"></span>
+          <span className="w-24 h-[2px] bg-violet-800"></span>
           <span className="bg-gradient-to-r to-blue-800 from-violet-900 w-fit text-white p-2 px-5 text-xl rounded-md">
             Projects
           </span>
-          <span className="w-24 h-[2px] bg-[#1a1443]"></span>
+          <span className="w-24 h-[2px] bg-blue-900"></span>
         </div>
       </div>
 
