@@ -3,7 +3,7 @@ import ProjectCard from "./project-card";
 
 const Projects = () => {
   return (
-    <div id="projects" className="relative z-50 my-12 lg:my-24">
+    <div id="projects" className="relative z-50 my-14 lg:my-24">
       <div className="flex justify-center lg:py-8">
         <div className="w-[100px] h-[100px] bg-violet-100 rounded-full absolute top-8 left-[41%] translate-x-1/2 filter blur-3xl opacity-20"></div>
         <div className="flex mt-[3rem] items-center">

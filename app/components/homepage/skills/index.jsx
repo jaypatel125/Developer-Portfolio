@@ -15,12 +15,12 @@ function Skills() {
         </div>
       </div>
       <div className="flex justify-center lg:py-4">
-        <div className="flex  items-center">
-          <span className="w-24 h-[2px] bg-violet-900"></span>
-          <span className="bg-gradient-to-r to-blue-800 from-violet-900 w-fit text-white p-2 px-5 text-xl rounded-md ">
+        <div className="flex mt-[3rem] items-center">
+          <span className="w-24 h-[2px] bg-violet-800"></span>
+          <span className="bg-gradient-to-r to-blue-800 from-violet-900 w-fit text-white p-2 px-5 text-xl rounded-md">
             Skills
           </span>
-          <span className="w-24 h-[2px] bg-blue-800"></span>
+          <span className="w-24 h-[2px] bg-blue-900"></span>
         </div>
       </div>
       <div className="w-full my-12">

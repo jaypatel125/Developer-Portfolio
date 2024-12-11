@@ -3,7 +3,7 @@ export const personalData = {
   profile: "/profile.png",
   designation: "Software Developer",
   description:
-    "I'm Jay Patel, a Software Development student enrolled in a three-year advanced diploma program at Mohawk College. I am passionately exploring the intricacies of coding and software solutions. Driven by a commitment to learning and applying my skills, I am actively seeking co-op opportunities to gain hands-on experience. Let's navigate the dynamic world of technology, bringing creativity and collaboration to every coding endeavor.",
+    "Jay Patel, a Software Development student at Mohawk College, is passionate about coding and actively pursuing co-op opportunities to gain practical experience and contribute creatively to technology solutions.",
   email: "jaykoladia@gmail.com",
   address: "Hamilton, Ontario, Canada",
   github: "https://github.com/jaypatel125",
